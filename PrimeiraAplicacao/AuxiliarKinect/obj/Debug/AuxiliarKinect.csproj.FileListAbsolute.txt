@@ -1,0 +1,7 @@
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\AuxiliarKinect\bin\Debug\AuxiliarKinect.dll
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\AuxiliarKinect\bin\Debug\AuxiliarKinect.pdb
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\AuxiliarKinect\bin\Debug\Microsoft.Kinect.dll
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\AuxiliarKinect\bin\Debug\Microsoft.Kinect.xml
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\AuxiliarKinect\obj\Debug\AuxiliarKinect.csprojResolveAssemblyReference.cache
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\AuxiliarKinect\obj\Debug\AuxiliarKinect.dll
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\AuxiliarKinect\obj\Debug\AuxiliarKinect.pdb

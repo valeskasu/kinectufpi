@@ -1,0 +1,36 @@
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\PrimeiraAplicacao\bin\Debug\PrimeiraAplicacao.exe.config
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\PrimeiraAplicacao.csprojResolveAssemblyReference.cache
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\MainWindow.g.cs
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\App.g.cs
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\PrimeiraAplicacao_MarkupCompile.cache
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\PrimeiraAplicacao_MarkupCompile.lref
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\PrimeiraAplicacao\bin\Debug\PrimeiraAplicacao.exe
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\PrimeiraAplicacao\bin\Debug\PrimeiraAplicacao.pdb
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\PrimeiraAplicacao\bin\Debug\AuxiliarKinect.dll
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\PrimeiraAplicacao\bin\Debug\Microsoft.Kinect.dll
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\PrimeiraAplicacao\bin\Debug\AuxiliarKinect.pdb
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\PrimeiraAplicacao\bin\Debug\Microsoft.Kinect.xml
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\MainWindow.baml
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\PrimeiraAplicacao.g.resources
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\PrimeiraAplicacao.Properties.Resources.resources
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\PrimeiraAplicacao.csproj.GenerateResource.Cache
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\PrimeiraAplicacao.exe
+c:\users\valeska\documents\visual studio 2015\Projects\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\PrimeiraAplicacao.pdb
+C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\PrimeiraAplicacao\bin\Debug\PrimeiraAplicacao.exe.config
+C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\PrimeiraAplicacao.exe
+C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\PrimeiraAplicacao.pdb
+C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\PrimeiraAplicacao\bin\Debug\PrimeiraAplicacao.exe
+C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\PrimeiraAplicacao\bin\Debug\PrimeiraAplicacao.pdb
+C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\PrimeiraAplicacao\bin\Debug\AuxiliarKinect.dll
+C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\PrimeiraAplicacao\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\PrimeiraAplicacao\bin\Debug\AuxiliarKinect.pdb
+C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\PrimeiraAplicacao\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\PrimeiraAplicacao.csprojResolveAssemblyReference.cache
+C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\MainWindow.g.cs
+C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\App.g.cs
+C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\PrimeiraAplicacao_MarkupCompile.cache
+C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\PrimeiraAplicacao_MarkupCompile.lref
+C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\MainWindow.baml
+C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\PrimeiraAplicacao.g.resources
+C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\PrimeiraAplicacao.Properties.Resources.resources
+C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\PrimeiraAplicacao\obj\Debug\PrimeiraAplicacao.csproj.GenerateResource.Cache
