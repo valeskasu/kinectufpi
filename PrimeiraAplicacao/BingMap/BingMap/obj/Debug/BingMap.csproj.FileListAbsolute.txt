@@ -1,0 +1,16 @@
+c:\users\renato\documents\visual studio 2015\Projects\BingMap\BingMap\bin\Debug\BingMap.exe.config
+c:\users\renato\documents\visual studio 2015\Projects\BingMap\BingMap\bin\Debug\BingMap.exe
+c:\users\renato\documents\visual studio 2015\Projects\BingMap\BingMap\bin\Debug\BingMap.pdb
+c:\users\renato\documents\visual studio 2015\Projects\BingMap\BingMap\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+c:\users\renato\documents\visual studio 2015\Projects\BingMap\BingMap\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+c:\users\renato\documents\visual studio 2015\Projects\BingMap\BingMap\obj\Debug\BingMap.csprojResolveAssemblyReference.cache
+c:\users\renato\documents\visual studio 2015\Projects\BingMap\BingMap\obj\Debug\MainWindow.g.cs
+c:\users\renato\documents\visual studio 2015\Projects\BingMap\BingMap\obj\Debug\App.g.cs
+c:\users\renato\documents\visual studio 2015\Projects\BingMap\BingMap\obj\Debug\BingMap_MarkupCompile.cache
+c:\users\renato\documents\visual studio 2015\Projects\BingMap\BingMap\obj\Debug\BingMap_MarkupCompile.lref
+c:\users\renato\documents\visual studio 2015\Projects\BingMap\BingMap\obj\Debug\MainWindow.baml
+c:\users\renato\documents\visual studio 2015\Projects\BingMap\BingMap\obj\Debug\BingMap.g.resources
+c:\users\renato\documents\visual studio 2015\Projects\BingMap\BingMap\obj\Debug\BingMap.Properties.Resources.resources
+c:\users\renato\documents\visual studio 2015\Projects\BingMap\BingMap\obj\Debug\BingMap.csproj.GenerateResource.Cache
+c:\users\renato\documents\visual studio 2015\Projects\BingMap\BingMap\obj\Debug\BingMap.exe
+c:\users\renato\documents\visual studio 2015\Projects\BingMap\BingMap\obj\Debug\BingMap.pdb
