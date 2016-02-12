@@ -5,9 +5,9 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingMap", "BingMap\BingMap.csproj", "{B70D5BE9-D557-482E-8BB2-5F62514C1D9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectControls", "..\..\..\..\Downloads\kinect-controls-master\KinectControls\KinectControls\KinectControls.csproj", "{10F5497F-8622-4C59-BE62-E13D9473ED9B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectControls", "KinectControls\KinectControls\KinectControls.csproj", "{10F5497F-8622-4C59-BE62-E13D9473ED9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectControls.Test", "..\..\..\..\Downloads\kinect-controls-master\KinectControls\KinectControls.Test\KinectControls.Test.csproj", "{97AD9226-98BD-4471-A6A3-F6EFBB44F0F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectControls.Test", "KinectControls\KinectControls.Test\KinectControls.Test.csproj", "{97AD9226-98BD-4471-A6A3-F6EFBB44F0F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

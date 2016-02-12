@@ -14,3 +14,6 @@ c:\users\renato\documents\visual studio 2015\Projects\BingMap\BingMap\obj\Debug\
 c:\users\renato\documents\visual studio 2015\Projects\BingMap\BingMap\obj\Debug\BingMap.csproj.GenerateResource.Cache
 c:\users\renato\documents\visual studio 2015\Projects\BingMap\BingMap\obj\Debug\BingMap.exe
 c:\users\renato\documents\visual studio 2015\Projects\BingMap\BingMap\obj\Debug\BingMap.pdb
+C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\BingMap\BingMap\bin\Debug\BingMap.exe.config
+C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\BingMap\BingMap\obj\Debug\BingMap.exe
+C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\BingMap\BingMap\obj\Debug\BingMap.pdb
