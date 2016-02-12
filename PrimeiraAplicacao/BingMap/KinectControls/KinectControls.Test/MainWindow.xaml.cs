@@ -104,25 +104,25 @@ namespace KinectControls.Test
            
                             cursor.Flip(activeHand);
                             cursor.Update(position);
-                            if (position.Y<35) {
+                            if (position.Y<45) {
                                 ufpi.Center.Latitude +=0.0001;
-                                ufpi.SetView(ufpi.Center, 16);
+                                ufpi.SetView(ufpi.Center, 17);
                             }
                             if (position.Y>300)
                             {
                                 ufpi.Center.Latitude -= 0.0001;
-                                ufpi.SetView(ufpi.Center, 16);
+                                ufpi.SetView(ufpi.Center, 17);
                             }
                             if (position.X<200)
                             {
                                 ufpi.Center.Longitude -=0.0001;
-                                ufpi.SetView(ufpi.Center, 16);
+                                ufpi.SetView(ufpi.Center, 17);
                             }
                             
-                            if (position.X > 300)
+                            if (position.X > 500)
                             {
                                 ufpi.Center.Longitude += 0.0001;
-                                ufpi.SetView(ufpi.Center, 16);
+                                ufpi.SetView(ufpi.Center, 17);
                             }
                         }
                     }
