@@ -15,6 +15,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using KinectControls;
+using Microsoft.Maps.MapControl.WPF;
+
 namespace KinectControls.Test
 {
     /// <summary>
@@ -27,6 +29,8 @@ namespace KinectControls.Test
         public MainWindow()
         {
             InitializeComponent();
+            //ufpi.Focus();
+            
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -97,9 +101,29 @@ namespace KinectControls.Test
                             // Select the hand that is closer to the sensor.
                             var activeHand = handRight.Position.Z <= handLeft.Position.Z ? handRight : handLeft;
                             var position = _sensor.CoordinateMapper.MapSkeletonPointToColorPoint(activeHand.Position, ColorImageFormat.RgbResolution640x480Fps30);
-
-                            cursor.Flip(activeHand);                            
+           
+                            cursor.Flip(activeHand);
                             cursor.Update(position);
+                            if (position.Y<35) {
+                                ufpi.Center.Latitude +=0.0001;
+                                ufpi.SetView(ufpi.Center, 16);
+                            }
+                            if (position.Y>300)
+                            {
+                                ufpi.Center.Latitude -= 0.0001;
+                                ufpi.SetView(ufpi.Center, 16);
+                            }
+                            if (position.X<200)
+                            {
+                                ufpi.Center.Longitude -=0.0001;
+                                ufpi.SetView(ufpi.Center, 16);
+                            }
+                            
+                            if (position.X > 300)
+                            {
+                                ufpi.Center.Longitude += 0.0001;
+                                ufpi.SetView(ufpi.Center, 16);
+                            }
                         }
                     }
                 }

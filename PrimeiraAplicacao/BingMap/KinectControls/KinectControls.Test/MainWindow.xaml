@@ -14,7 +14,7 @@
             <Canvas.Background>
                 <ImageBrush x:Name="camera" Stretch="None" />
             </Canvas.Background>
-            <Controls:KinectCursor x:Name="cursor" Width="100" Height="100" Fill="Black" Canvas.Left="10" Canvas.Top="10"/>
+            <Controls:KinectCursor x:Name="cursor" Width="50" Height="50" Fill="Black" Canvas.Left="280" Canvas.Top="231"/>
         </Canvas>
     </Grid>
 </Window>
