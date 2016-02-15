@@ -8,13 +8,13 @@
         mc:Ignorable="d"
         Title="Kinect UFPI - Menu Principal" Height="438.957" Width="505.214">
     <Grid>
-        <Image x:Name="ufpi_maps_PNG" Margin="33,29,32.2,187.6" Source="ufpi maps.PNG" RenderTransformOrigin="0.515,0.644" Stretch="UniformToFill" Opacity="0.7"/>
 
         <KinectControls:KinectCursor HorizontalAlignment="Left" Height="49" Margin="403,337,0,0" Fill ="Black" VerticalAlignment="Top" Width="44"/>
         <Button x:Name="button" Content="login" HorizontalAlignment="Left" VerticalAlignment="Top" Width="42" Margin="34,367,0,0"/>
         <Button x:Name="button1" Content="Pesquisar localidade" HorizontalAlignment="Left" Height="65" Margin="50,243,0,0" VerticalAlignment="Top" Width="180" BorderBrush="{x:Null}" Opacity="0.8" BorderThickness="0"/>
         <Button x:Name="button2" Content="Manual Kinect" HorizontalAlignment="Left" Height="45" Margin="146,350,0,0" VerticalAlignment="Top" Width="211" BorderThickness="0" Opacity="0.3"/>
         <Button x:Name="button3" Content="Visualizar mapa" HorizontalAlignment="Left" Height="65" Margin="267,243,0,0" VerticalAlignment="Top" Width="180" Opacity="0.8" BorderThickness="0" Click="button3_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="192" VerticalAlignment="Top" Width="397" Source="ufpi maps.PNG" Margin="50,25,0,0" Stretch="UniformToFill"/>
 
     </Grid>
 </Window>

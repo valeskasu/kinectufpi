@@ -19,6 +19,8 @@ namespace KinectControls.Test
     /// </summary>
     public partial class MainMenu : Window
     {
+       
+
         public MainMenu()
         {
             InitializeComponent();
