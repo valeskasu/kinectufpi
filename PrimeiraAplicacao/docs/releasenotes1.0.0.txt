@@ -1,0 +1,37 @@
+==========================================================================================================================================
+[PROJETO KINECT UFPI] Release Notes - 17-02-2016
+==========================================================================================================================================
+
+LISTA DE FUNCIONALIDADE DA RELEASE
+------------------------------------------------------------------------------------------------------------------------------------------
+1)Visualizar mapa
+
+2)Navegar pelo mapa
+
+3)Dar zoom no mapa
+
+
+ARTEFATOS GERADOS
+------------------------------------------------------------------------------------------------------------------------------------------
+- Diagrama de Classes
+- Diagrama de casos de uso
+- Diagrama de sequência
+
+PROCEDIMENTOS PARA BAIXAR O PROJETO
+------------------------------------------------------------------------------------------------------------------------------------------
+1. Projeto validado para o Microsoft Visual Studio 2015 IDE - Versão Community, utilizando a SKD Kinect for Windows 1.8
+2. Baixe o repositório do projeto a partir da URL: https://github.com/valeskasu/kinectufpi/tree/master
+3. Baixe a versão zip do projeto ou dê um clone utilizando o Git com o comando git clone + URL
+4. Instalar o arquivo que está na pasta lib referente ao Bing Maps WPF Control
+5. Abra o projeto, em seguida, selecione a aba Project -> Add Referece -> Browse... -> Localize a DLL obtida a partir da instalação do passo 4.
+6. Clean solution e Build solution
+
+
+PROCEDIMENTO PARA EXECUTAR A APLICAÇÃO USANDO A IDE
+------------------------------------------------------------------------------------------------------------------------------------------
+1. Selecione a classe KinectControls.Test e clique em Start.
+2. Uma tela inicial vai aparecer e a aplicação está pronta para ser utilizada.
+
+==========================================================================================================================================
+[PROJETO KINECT UFPI] Release Notes - 17-02-2016
+==========================================================================================================================================
