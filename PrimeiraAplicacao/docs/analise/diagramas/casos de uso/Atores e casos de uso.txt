@@ -1,0 +1,7 @@
+Atores:
+1)Kinect
+2)Usuário
+
+Casos de uso:
+1)Reconhecer movimento(up, down, left, right, zoom in, zoom out)
+2)Visualizar mapa
