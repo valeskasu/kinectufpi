@@ -17,29 +17,13 @@ using Microsoft.Kinect;
 namespace KinectControls.Test
 {
     /// <summary>
-    /// Interaction logic for MainMenu.xaml
+    /// Interaction logic for PesquisarLocalidade.xaml
     /// </summary>
-    public partial class MainMenu : Window
+    public partial class PesquisarLocalidade : Window
     {
-       
-
-        public MainMenu()
+        public PesquisarLocalidade()
         {
             InitializeComponent();
-        }
-
-        private void button3_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow map = new MainWindow();
-            map.Show();
-            this.Close();
-        }
-
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-            PesquisarLocalidade pesq = new PesquisarLocalidade();
-            pesq.Show();
-            this.Close();
         }
     }
 }
