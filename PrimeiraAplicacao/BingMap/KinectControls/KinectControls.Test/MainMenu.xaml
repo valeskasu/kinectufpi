@@ -5,22 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KinectControls.Test"
         xmlns:KinectControls="clr-namespace:KinectControls;assembly=KinectControls" x:Class="KinectControls.Test.MainMenu"
-        mc:Ignorable="d"
-        Title="Kinect UFPI - Menu Principal" Height="480" Width="640">
+        Title="Kinect UFPI - Menu Principal" Height="438.957" Width="505.214"
+        Loaded="Window_Loaded1" Unloaded="Window_Unloaded1">
     <Grid>
 
-        <Canvas Name="canvas" Width="640" Height="480">
+        <Button x:Name="button" Content="login" HorizontalAlignment="Left" VerticalAlignment="Top" Width="42" Margin="34,367,0,0"/>
+        <Button x:Name="button1" Content="Pesquisar localidade" HorizontalAlignment="Left" Height="65" Margin="50,243,0,0" VerticalAlignment="Top" Width="180" BorderBrush="{x:Null}" Opacity="0.8" BorderThickness="0"/>
+        <Button x:Name="button2" Content="Manual Kinect" HorizontalAlignment="Left" Height="45" Margin="146,350,0,0" VerticalAlignment="Top" Width="211" BorderThickness="0" Opacity="0.3"/>
+        <Button x:Name="button3" Content="Visualizar mapa" HorizontalAlignment="Left" Height="65" Margin="267,243,0,0" VerticalAlignment="Top" Width="180" Opacity="0.8" BorderThickness="0" Click="button3_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="192" VerticalAlignment="Top" Width="397" Source="ufpi maps.PNG" Margin="50,25,0,0" Stretch="UniformToFill"/>
+        <Canvas Name="canvas" Margin="10,0,-0.333,0.333">
+            
             <Canvas.Background>
                 <ImageBrush x:Name="camera" Stretch="None" />
             </Canvas.Background>
-            <KinectControls:KinectCursor x:Name="cursor" Width="50" Height="50" Fill="Black" Canvas.Left="280" Canvas.Top="231"/>
-        </Canvas>        
+            <KinectControls:KinectCursor x:Name="cursor" HorizontalAlignment="Left" Height="49" Fill ="Black" VerticalAlignment="Top" Width="44" Canvas.Left="219" Canvas.Top="190"/>
+        </Canvas>
+
         
-        <Button x:Name="button" Content="login" HorizontalAlignment="Left" VerticalAlignment="Top" Width="42" Margin="34,367,0,0"/>
-        <Button x:Name="button1" Content="Pesquisar localidade" HorizontalAlignment="Left" Height="65" Margin="90,272,0,0" VerticalAlignment="Top" Width="180" BorderBrush="{x:Null}" Opacity="0.8" BorderThickness="0" Click="button1_Click"/>
-        <Button x:Name="button2" Content="Manual Kinect" HorizontalAlignment="Left" Height="45" Margin="257,367,0,0" VerticalAlignment="Top" Width="211" BorderThickness="0" Opacity="0.3"/>
-        <Button x:Name="button3" Content="Visualizar mapa" HorizontalAlignment="Left" Height="65" Margin="380,272,0,0" VerticalAlignment="Top" Width="180" Opacity="0.8" BorderThickness="0" Click="button3_Click"/>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="192" VerticalAlignment="Top" Width="397" Source="ufpi maps.PNG" Margin="122,30,0,0" Stretch="UniformToFill"/>
 
     </Grid>
 </Window>

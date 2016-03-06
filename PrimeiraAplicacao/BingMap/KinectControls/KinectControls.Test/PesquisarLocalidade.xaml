@@ -3,27 +3,27 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:KinectControls="clr-namespace:KinectControls;assembly=KinectControls"
         xmlns:local="clr-namespace:KinectControls.Test"
+        xmlns:KinectControls="clr-namespace:KinectControls;assembly=KinectControls"
         mc:Ignorable="d"
-        Title="PesquisarLocalidade" Height="480" Width="640">
+        Title="PesquisarLocalidade" Height="480" Width="640"
+        Loaded="Window_Loaded2" Unloaded="Window_Unloaded2">
     <Grid>
 
-        <Canvas Name="canvas" Width="640" Height="480">
-            <Canvas.Background>
-                <ImageBrush x:Name="camera" Stretch="None" />
-            </Canvas.Background>
-            <KinectControls:KinectCursor x:Name="cursor" Width="50" Height="50" Fill="Black" Canvas.Left="280" Canvas.Top="231"/>
-        </Canvas>
-        
+
         <Button x:Name="button" Content="CCN" HorizontalAlignment="Left" VerticalAlignment="Top" Width="152" Margin="69,176,0,0" Height="60" FontSize="16"/>
         <Button x:Name="button1" Content="CCHL" HorizontalAlignment="Left" VerticalAlignment="Top" Width="152" Margin="409,260,0,0" Height="60" FontSize="16"/>
         <Button x:Name="button2" Content="CT" HorizontalAlignment="Left" VerticalAlignment="Top" Width="152" Margin="409,87,0,0" Height="60" FontSize="16"/>
         <Button x:Name="button3" Content="DCE" HorizontalAlignment="Left" VerticalAlignment="Top" Width="152" Margin="409,176,0,0" Height="60" FontSize="16"/>
         <Button x:Name="button4" Content="Setor de esportes" HorizontalAlignment="Left" VerticalAlignment="Top" Width="152" Margin="69,260,0,0" Height="60" FontSize="16"/>
         <Button x:Name="button6" Content="HU" HorizontalAlignment="Left" VerticalAlignment="Top" Width="152" FontSize="16" Height="59" Margin="69,87,0,0"/>
+        <Canvas Name="canvas" Margin="10,0,-0.333,0.333">
 
+            <Canvas.Background>
+                <ImageBrush x:Name="camera" Stretch="None" />
+            </Canvas.Background>
+            <KinectControls:KinectCursor x:Name="cursor" HorizontalAlignment="Left" Height="49" Fill ="Black" VerticalAlignment="Top" Width="44" Canvas.Left="219" Canvas.Top="190"/>
+        </Canvas>
 
-        
     </Grid>
 </Window>

@@ -120,10 +120,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\BingMap\BingMap.csproj">
-      <Project>{b70d5be9-d557-482e-8bb2-5f62514c1d9e}</Project>
-      <Name>BingMap</Name>
-    </ProjectReference>
     <ProjectReference Include="..\KinectControls\KinectControls.csproj">
       <Project>{10f5497f-8622-4c59-be62-e13d9473ed9b}</Project>
       <Name>KinectControls</Name>

@@ -15,17 +15,5 @@ c:\users\renato\documents\visual studio 2015\Projects\BingMap\BingMap\obj\Debug\
 c:\users\renato\documents\visual studio 2015\Projects\BingMap\BingMap\obj\Debug\BingMap.exe
 c:\users\renato\documents\visual studio 2015\Projects\BingMap\BingMap\obj\Debug\BingMap.pdb
 C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\BingMap\BingMap\bin\Debug\BingMap.exe.config
-C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\BingMap\BingMap\bin\Debug\BingMap.exe
-C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\BingMap\BingMap\bin\Debug\BingMap.pdb
-C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\BingMap\BingMap\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
-C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\BingMap\BingMap\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
-C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\BingMap\BingMap\obj\Debug\MainWindow.g.cs
-C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\BingMap\BingMap\obj\Debug\App.g.cs
-C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\BingMap\BingMap\obj\Debug\BingMap_MarkupCompile.cache
-C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\BingMap\BingMap\obj\Debug\BingMap_MarkupCompile.lref
-C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\BingMap\BingMap\obj\Debug\MainWindow.baml
-C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\BingMap\BingMap\obj\Debug\BingMap.g.resources
-C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\BingMap\BingMap\obj\Debug\BingMap.Properties.Resources.resources
-C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\BingMap\BingMap\obj\Debug\BingMap.csproj.GenerateResource.Cache
 C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\BingMap\BingMap\obj\Debug\BingMap.exe
 C:\Users\Valeska\Desktop\kinectufpi\PrimeiraAplicacao\BingMap\BingMap\obj\Debug\BingMap.pdb

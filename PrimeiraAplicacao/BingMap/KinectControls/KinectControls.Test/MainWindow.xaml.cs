@@ -18,6 +18,7 @@ using KinectControls;
 using Microsoft.Maps.MapControl.WPF;
 using KinectControls.Test.RegrasMovimentos;
 
+
 namespace KinectControls.Test
 {
     /// <summary>
@@ -27,9 +28,11 @@ namespace KinectControls.Test
     {
         KinectSensor _sensor;
 
+
         public MainWindow()
         {
             InitializeComponent();
+            
             //ufpi.Focus();
             
         }
@@ -46,13 +49,16 @@ namespace KinectControls.Test
             _sensor.SkeletonFrameReady += Sensor_SkeletonFrameReady;
 
             _sensor.Start();
+
+            
         }
 
         private void Window_Unloaded(object sender, RoutedEventArgs e)
         {
             if (_sensor != null)
             {
-                _sensor.Stop();
+                this.Hide();
+                
             }
         }
 
