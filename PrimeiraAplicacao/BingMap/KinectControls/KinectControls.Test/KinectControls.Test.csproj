@@ -61,6 +61,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="KinectManual.xaml.cs">
+      <DependentUpon>KinectManual.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PesquisarLocalidade.xaml.cs">
       <DependentUpon>PesquisarLocalidade.xaml</DependentUpon>
     </Compile>
@@ -68,6 +71,10 @@
     <Compile Include="RegrasMovimentos\RegraSelecionar.cs" />
     <Compile Include="RegrasMovimentos\RegraZoomIn.cs" />
     <Compile Include="RegrasMovimentos\RegraZoomOut.cs" />
+    <Page Include="KinectManual.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainMenu.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
