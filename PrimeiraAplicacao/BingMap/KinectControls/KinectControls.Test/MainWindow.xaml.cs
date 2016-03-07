@@ -29,12 +29,23 @@ namespace KinectControls.Test
         KinectSensor _sensor;
 
 
-        public MainWindow()
+        public MainWindow(Double x, Double y, Double zoom)
         {
             InitializeComponent();
+
+            ufpi.Center = new Location(x, y);
+
+            ufpi.ZoomLevel = zoom;
             
             //ufpi.Focus();
-            
+
+        }
+
+        public void setMap(Double x, Double y, Double zoom)
+        {
+            ufpi.Center = new Location(x, y);
+
+            ufpi.ZoomLevel = zoom;
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -106,6 +117,8 @@ namespace KinectControls.Test
                         Joint handRight = body.Joints[JointType.HandRight];
 
 
+                        if (RegraFecharTela.ExecutaRegraFecharTela(body))
+                            this.Close();
 
 
                         if (RegraZoomOut.ExecutaRegraZoomOut(body))

@@ -23,9 +23,13 @@ namespace KinectControls.Test
     public partial class MainMenu : Window
     {
         public KinectSensor _sensor1;
-        public int countSelect = 0;
+        public int countSelect2 = 0;
+        public int countSelect1 = 0;
+        public int countSelect3= 0;
+        public int countFecharTela = 0;
         MainWindow map;
         PesquisarLocalidade menuLocal;
+        KinectManual manual;
         bool flag = false;
 
 
@@ -117,46 +121,88 @@ namespace KinectControls.Test
                             cursor.Flip(activeHand);
                             cursor.Update(position);
 
-
-                            if (RegraSelecionar.ExecutaRegraSelecionar(body) && position.X > 307 && position.X < 427 && position.Y > 253 && position.Y < 298)
+                            if (this.IsVisible)
                             {
-
-                                Console.WriteLine("SELECIONA");
-                                if (map == null)
+                                if (RegraFecharTela.ExecutaRegraFecharTela(body))
                                 {
-                                    map = new MainWindow();
-                                    map.Show();
-                                    countSelect = 0;
+                                    if (countFecharTela > 15)
+                                        this.Close();
+                                    else
+                                        countFecharTela++;
+
                                 }
-                                Console.WriteLine(map.IsVisible);
-                                //if (IsVisible)
-                            
-                            }
-                            else {
-                                if (RegraSelecionar.ExecutaRegraSelecionar(body) && position.X > 70 && position.X < 200 && position.Y > 253 && position.Y < 298)
+                                else
+                                    countFecharTela = 0;
+
+                                if (position.X > 307 && position.X < 427 && position.Y > 253 && position.Y < 298)
                                 {
 
                                     Console.WriteLine("SELECIONA");
-                                    if (menuLocal == null)
+                                    countSelect2++;
+                                    Console.WriteLine(countSelect2);
+                                    if (map == null && countSelect2 >= 45)
                                     {
-                                        menuLocal = new PesquisarLocalidade();
-                                        menuLocal.Show();
-                                        countSelect = 0;
+                                        map = new MainWindow(-5.062080, -42.794552, 17);
+                                        map.Show();
+                                        countSelect2 = 0;
                                     }
-                                    Console.WriteLine(menuLocal.IsVisible);
+
+
+
                                     //if (IsVisible)
 
                                 }
+                                else {
+                                    countSelect2 = 0;
+                                    if (position.X > 70 && position.X < 200 && position.Y > 253 && position.Y < 298)
+                                    {
+                                        countSelect1++;
+                                        Console.WriteLine("SELECIONA");
+                                        if (menuLocal == null && countSelect1 >= 45)
+                                        {
+                                            menuLocal = new PesquisarLocalidade();
+                                            menuLocal.Show();
+                                            countSelect1 = 0;
+                                        }//if (IsVisible)
+
+                                    }
+                                    else {
+                                        countSelect1 = 0;
+
+                                        if (position.X > 166 && position.X < 337 && position.Y > 365 && position.Y < 385)
+                                        {
+
+                                            Console.WriteLine("SELECIONAMENU");
+                                            countSelect3++;
+                                            Console.WriteLine(countSelect3);
+                                            if (manual == null && countSelect3 >= 45)
+                                            {
+                                                manual = new KinectManual();
+                                                manual.Show();
+                                                countSelect3 = 0;
+                                            }
 
 
+
+                                            //if (IsVisible)
+
+                                        }
+                                        else
+                                        {
+                                            countSelect3 = 0;
+                                        }
+                                    }
+
+                                   
+                                }
                             }
-
 
                             if (map != null)
                             {
                                 if (map.IsVisible)
                                 {
                                     this.Visibility = Visibility.Collapsed;
+                                    countSelect1 = 0;
                                 }
                                 else {
                                     this.Show();
@@ -168,13 +214,16 @@ namespace KinectControls.Test
                                     }
                                 }
                             }
+
                             if (menuLocal != null) {
                                 if (menuLocal.IsVisible)
                                 {
                                     this.Visibility = Visibility.Collapsed;
+                                    countSelect2 = 0;
                                 }
                                 else {
-                                    this.Show();
+                                    if(!menuLocal.getMap().IsVisible)
+                                        this.Show();
                                     if (menuLocal != null)
                                     {
 
@@ -182,7 +231,28 @@ namespace KinectControls.Test
                                         menuLocal = null;
                                     }
                                 }
+
+                                
                             }
+
+                            if (manual != null)
+                            {
+                                if (manual.IsVisible)
+                                {
+                                    this.Visibility = Visibility.Collapsed;
+                                    countSelect3 = 0;
+                                }
+                                else {
+                                    this.Show();
+                                    if (map != null)
+                                    {
+
+                                        map.Close();
+                                        map = null;
+                                    }
+                                }
+                            }
+
 
 
 
@@ -194,19 +264,20 @@ namespace KinectControls.Test
                 }
             }
         }
-
         
-
-        
-
-
         private void button3_Click(object sender, RoutedEventArgs e)
         {
             //_sensor1.Stop();
             
-            MainWindow map = new MainWindow();
+            MainWindow map = new MainWindow(-5.062080, -42.794552, 17);
             map.Show();
          
+        }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            KinectManual manual = new KinectManual();
+            manual.Show();
         }
     }
 }

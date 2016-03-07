@@ -61,19 +61,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="KinectManual.xaml.cs">
-      <DependentUpon>KinectManual.xaml</DependentUpon>
-    </Compile>
     <Compile Include="PesquisarLocalidade.xaml.cs">
       <DependentUpon>PesquisarLocalidade.xaml</DependentUpon>
     </Compile>
     <Compile Include="RegrasMovimentos\FuncoesAuxiliares\Util.cs" />
+    <Compile Include="RegrasMovimentos\RegraFecharTela.cs" />
     <Compile Include="RegrasMovimentos\RegraSelecionar.cs" />
     <Compile Include="RegrasMovimentos\RegraZoomIn.cs" />
     <Compile Include="RegrasMovimentos\RegraZoomOut.cs" />
     <Page Include="KinectManual.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="MainMenu.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -135,7 +133,14 @@
   <ItemGroup>
     <Resource Include="ufpi maps.PNG" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="kinect baixo.png" />
+    <Resource Include="kinect central.png" />
+    <Resource Include="kinect cima.png" />
+    <Resource Include="kinect direita.png" />
+    <Resource Include="kinect esquerda.png" />
+    <Resource Include="kinect zoom out.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

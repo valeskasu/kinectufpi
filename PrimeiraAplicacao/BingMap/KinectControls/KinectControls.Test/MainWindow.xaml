@@ -9,7 +9,9 @@
     <Grid>
 
 
-        <m:Map CredentialsProvider="AgQvvrZBNnntvg7QXWzruTYD2S0UIxXTXz8kwZs9eIvqy-wzfYTUIt7HHlotVp9X" x:Name="ufpi" Center="-5.062080, -42.794552" ZoomLevel="17" />
+        <m:Map CredentialsProvider="AgQvvrZBNnntvg7QXWzruTYD2S0UIxXTXz8kwZs9eIvqy-wzfYTUIt7HHlotVp9X" x:Name="ufpi">
+            <m:Pushpin Location="-5.055871, -42.805336"/>
+        </m:Map>
         <Canvas Name="canvas" Width="640" Height="480">
             <Canvas.Background>
                 <ImageBrush x:Name="camera" Stretch="None" />

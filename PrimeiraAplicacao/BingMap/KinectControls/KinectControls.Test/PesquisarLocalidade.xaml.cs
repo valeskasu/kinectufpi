@@ -24,10 +24,22 @@ namespace KinectControls.Test
     public partial class PesquisarLocalidade : Window
     {
 
+        MainWindow map;
+        public int countSelectHU = 0;
+        public int countSelectCCN = 0;
+        public int countSelectSE = 0;
+        public int countSelectCCHL = 0;
+        public int countSelectCT = 0;
+        public int countSelectDCE = 0;
+        public int countFecharTela = 0;
+
         KinectSensor _sensor;
         public PesquisarLocalidade()
         {
+            
             InitializeComponent();
+            map = new MainWindow(-5.056007, -42.790406, 17);
+            //map.Visibility = Visibility.Collapsed;
         }
 
         private void Window_Loaded2(object sender, RoutedEventArgs e)
@@ -43,6 +55,12 @@ namespace KinectControls.Test
 
             _sensor.Start();
 
+
+        }
+
+        public MainWindow getMap()
+        {
+            return this.map;
 
         }
 
@@ -98,23 +116,161 @@ namespace KinectControls.Test
 
                         Joint handRight = body.Joints[JointType.HandRight];
 
-                        if (handLeft.TrackingState != JointTrackingState.NotTracked && handRight.TrackingState != JointTrackingState.NotTracked)
+                        if (this.IsVisible)
                         {
-                            // Select the hand that is closer to the sensor.
-                            var activeHand = handRight.Position.Z <= handLeft.Position.Z ? handRight : handLeft;
-                            var position = _sensor.CoordinateMapper.MapSkeletonPointToColorPoint(activeHand.Position, ColorImageFormat.RgbResolution640x480Fps30);
-
-                            cursor.Flip(activeHand);
-                            cursor.Update(position);
-
-
-                            if (RegraSelecionar.ExecutaRegraSelecionar(body) && position.X > 307 && position.X < 427 && position.Y > 253 && position.Y < 298)
+                            if (RegraFecharTela.ExecutaRegraFecharTela(body))
                             {
+                                if (countFecharTela > 15)
+                            //        Console.Write("z");
+                                this.Close();
+                                else
+                                    countFecharTela++;
 
                             }
-                            else {
-                                if (RegraSelecionar.ExecutaRegraSelecionar(body) && position.X > 70 && position.X < 200 && position.Y > 253 && position.Y < 298)
+                            else
+                                countFecharTela = 0;
+
+                            if (handLeft.TrackingState != JointTrackingState.NotTracked && handRight.TrackingState != JointTrackingState.NotTracked)
+                            {
+                                // Select the hand that is closer to the sensor.
+                                var activeHand = handRight.Position.Z <= handLeft.Position.Z ? handRight : handLeft;
+                                var position = _sensor.CoordinateMapper.MapSkeletonPointToColorPoint(activeHand.Position, ColorImageFormat.RgbResolution640x480Fps30);
+
+                                cursor.Flip(activeHand);
+                                cursor.Update(position);
+                                
+
+                                if (position.X > 79 && position.X < 195 && position.Y > 97 && position.Y < 137)
                                 {
+
+                                    Console.WriteLine("SELECIONAHUU");
+                                    countSelectHU++;
+                                    Console.WriteLine(countSelectHU);
+                                    if(this.IsVisible)
+                                        countSelectHU++;
+                                    if (countSelectHU >= 45)
+                                    {
+                                        map.setMap(-5.056007, -42.790406, 17);
+                                        map.Visibility = Visibility.Visible;
+                                        countSelectHU = 0;
+                                        //this.Visibility = Visibility.Collapsed;
+                                    }
+
+
+
+                                    //if (IsVisible)
+
+                                }
+                                else {
+                                    countSelectHU = 0;
+
+                                    
+                                    
+                                    if (position.X > 99 && position.X < 191 && position.Y > 186 && position.Y < 226)
+                                    {
+                                        countSelectCCN++;
+                                        Console.WriteLine("SELECIONACCN");
+                                        if (countSelectCCN >= 45)
+                                        {
+                                            map.setMap(-5.057639, -42.790237, 17);
+                                            map.Visibility = Visibility.Visible;
+                                            countSelectCCN = 0;
+                                            //this.Visibility = Visibility.Collapsed;
+                                        }//if (IsVisible)
+
+                                    }
+                                    else {
+                                        countSelectCCN = 0;
+
+                                        
+
+                                        if (position.X > 99 && position.X < 191 && position.Y > 270 && position.Y < 310)
+                                        {
+
+                                            Console.WriteLine("SELECIONASE");
+                                            countSelectSE++;
+                                            if (countSelectSE >= 45)
+                                            {
+                                                map.setMap(-5.055871, -42.805336, 17);
+                                                map.Visibility = Visibility.Visible;
+                                                countSelectSE = 0;
+                                                //this.Visibility = Visibility.Hidden;
+                                            }
+
+
+
+                                            //if (IsVisible)
+
+                                        }
+                                        else {
+                                            countSelectSE = 0;
+
+                                            
+                                            if (position.X > 439 && position.X < 531 && position.Y > 270 && position.Y < 310)
+                                            {
+                                                countSelectCCHL++;
+                                                Console.WriteLine("SELECIONACCHL");
+                                                if (countSelectCCHL >= 45)
+                                                {
+                                                    map.setMap(-5.057872, -42.797144, 17);
+                                                    map.Visibility = Visibility.Visible;
+                                                    countSelectCCHL = 0;
+                                                    //this.Visibility = Visibility.Collapsed;
+                                                }//if (IsVisible)
+
+                                            }
+                                            else {
+                                                countSelectCCHL = 0;
+
+                                                
+                                                if (position.X > 439 && position.X < 531 && position.Y > 127 && position.Y < 137)
+                                                {
+
+                                                    Console.WriteLine("SELECIONACT");
+                                                    countSelectCT++;
+                                                    if (countSelectCT >= 45)
+                                                    {
+                                                        map.setMap(-5.055031, -42.799357, 17);
+                                                        map.Visibility = Visibility.Visible;
+                                                        countSelectCT = 0;
+                                                        //this.Visibility = Visibility.Collapsed;
+                                                    }
+
+
+
+                                                    //if (IsVisible)
+
+                                                }
+                                                else {
+                                                    countSelectCT = 0;
+
+                                                    countSelectDCE = 0;
+                                                    if (position.X > 439   && position.X < 531 && position.Y > 186 && position.Y < 226)
+                                                    {
+                                                        Console.WriteLine("SELECIONADCE");
+                                                        countSelectDCE++;
+                                                        if (countSelectDCE >= 45)
+                                                        {
+                                                            map.setMap(-5.056593, -42.789486, 17);
+                                                            map.Visibility = Visibility.Visible;
+                                                            countSelectDCE = 0;
+                                                            //this.Visibility = Visibility.Collapsed;
+                                                        }//if (IsVisible)
+
+                                                    }
+                                                    else
+                                                        countSelectDCE = 0;
+
+
+                                                }
+
+                                            }
+
+
+                                        }
+
+
+                                    }
 
 
                                 }
@@ -123,7 +279,22 @@ namespace KinectControls.Test
                             }
 
 
+
                         }
+                        else
+                        {
+                            if (map != null)
+                            {
+                                if (map.IsVisible)
+                                {
+                                    this.Visibility = Visibility.Hidden;
+                                }
+                                
+                            }
+
+                        }
+
+
                     }
 
 

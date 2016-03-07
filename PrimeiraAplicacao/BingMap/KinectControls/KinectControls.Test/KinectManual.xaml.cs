@@ -19,9 +19,15 @@ namespace KinectControls.Test
     /// </summary>
     public partial class KinectManual : Window
     {
+
+        KinectSensor _sensor;
+
         public KinectManual()
         {
             InitializeComponent();
         }
+
+
+
     }
 }
